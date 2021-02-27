@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+.flags {
+	margin: 20px;
+	width: 300px;
+	height: 200px;
+	border: 2px solid #ccc;
+}
+
+.ukraine {
+	background-image: linear-gradient(to bottom, #157cc7, #157cc7 50%, #ff0 50%, #ff0);
+}
+
+.japenes {
+	background: radial-gradient(circle, #bc002d 58px, #fff 60px);
+}
+
+.chech {
+
+	border: solid 1px #000000;
+	background: linear-gradient(to bottom,
+			white 50%,
+			red 50%);
+}
+
+.chech::after {
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 150px solid #0000ff;
+	border-bottom: 100px solid transparent;
+}
+
+.iceland {
+	background:
+		linear-gradient(blue, blue) 0 0 /50px 50px,
+		linear-gradient(blue, blue) 0 100% /50px 90px,
+		linear-gradient(blue, blue) 100% 0 /190px 50px,
+		linear-gradient(blue, blue) 100% 100%/190px 85px,
+
+		linear-gradient(red, red) 60px 0/ 25px 100%,
+		linear-gradient(red, red) 0 60px/ 100% 25px;
+	background-repeat: no-repeat;
+
+}
